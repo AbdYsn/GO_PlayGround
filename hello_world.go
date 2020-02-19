@@ -1,9 +1,11 @@
-package main
+package abdysn_playground
 
 import (
-	"fmt"
+   "fmt"
+   "rsc.io/quote"
 )
 
-func main() {
-	fmt.Println("Hello, playground")
+func Hello() string{
+        fmt.Println("Hello, playground")
+        return quote.Hello()
 }
